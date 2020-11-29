@@ -1,2 +1,3 @@
+#!/bin/bash
 cd /recollwebui
-/usr/bin/gunicorn webui-wsgi:application -c /root/gunicorn.conf
+/usr/bin/gunicorn3 webui-wsgi:application -c /root/gunicorn.conf
